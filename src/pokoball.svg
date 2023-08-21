@@ -1,0 +1,16 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Semicírculo superior rojo -->
+    <path d="M0 100 A100 100 0 0 1 200 100 Z" fill="red" />
+
+    <!-- Semicírculo inferior blanco -->
+    <path d="M0 100 A100 100 0 0 0 200 100 Z" fill="white" />
+
+    <!-- Línea horizontal negra en el centro, más gruesa -->
+    <line x1="0" y1="100" x2="200" y2="100" stroke="black" stroke-width="10" />
+
+    <!-- Círculo exterior negro, más grueso -->
+    <circle cx="100" cy="100" r="95.2" fill="none" stroke="black" stroke-width="10" />
+
+    <!-- Círculo blanco en el centro con borde negro, más grueso -->
+    <circle cx="100" cy="100" r="20" fill="white" stroke="black" stroke-width="10" />
+</svg>
