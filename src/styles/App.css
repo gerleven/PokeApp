@@ -1,0 +1,10 @@
+:root{
+  --dark-blue: #1f376f;
+  --blue: #2f6cb4;
+  --yellow: #ffcb05;
+  --dark-yelow: #c7a008;
+}
+
+.miclase{
+  background-color: var(--yellow);
+}

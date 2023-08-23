@@ -1,9 +1,12 @@
 import React from 'react';
 import logo from './pokoball.svg';
 import './App.css';
+import './styles/App.css';
 
 function App() {
   return (
+    <>
+    <div className='miclase'>asd</div>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -20,6 +23,7 @@ function App() {
         </a>
       </header>
     </div>
+    </>
   );
 }
 
